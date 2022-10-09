@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="Amsterdam Art Center">
+        <link rel="shortcut icon" type="image/jpg" href="static/images/icons/favicon.png"/>
+        <link rel="stylesheet" href="static/addons/bootstrap/bootstrap-build.css">
+        <link rel="stylesheet" href="static/addons/bootstrap/bootstrap-grid.min.css">
+        <!--        <link rel="stylesheet" href="static/css/styles.css">-->
+        <link rel="stylesheet" href="static/addons/tinyslider/tiny-slider.min.css">
+        <link rel="stylesheet" href="static/scss/style.css">
+        <title>Amsterdam Art Center</title>
+    </head>
+    <body>
+        <header id="menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div id="logo">
+                            <img src="static/images/icons/AAC_logo_text.png" alt="Logo amsterdam art center">
+                        </div>
+                        <div class="hamburger-nav"> <!-- start hamburger menu (responsive) -->
+                            <input type="checkbox" class="toggle-menu" onclick="">
+                            <div class="hamburger"></div> <!-- end hamburger menu (responsive) -->
+                        </div>
+                        <nav id="navigation">
+                            <ul class="top-menu"> <!-- Top navigation menu -->
+                                <li>
+                                    <a href="tel:+31(0)206241124<">+31 (0) 20 624 11 24</a>
+                                </li>
+                                <li class="slash">
+                                    <p>|</p>
+                                </li>
+                                <li>
+                                    <a href="mailto:mike@amsterdamartcenter.nl">mike@amsterdamartcenter.nl</a>
+                                </li>
+                                <li class="slash">
+                                    <p>|</p>
+                                </li>
+                                <li class="socials">
+                                    <p>Like ons:</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="static/images/icons/facebook.png" alt="Facebook">
+                                    </a>
+                                    <p>+&nbsp;</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="static/images/icons/twitter.svg" alt="Twitter">
+                                    </a>
+                                    <p>&nbsp;+&nbsp;</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="static/images/icons/linkedin.svg" alt="LinkedIn">
+                                    </a>
+                                    <p>&nbsp;+</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="static/images/icons/google.svg" alt="Google+">
+                                    </a>
+                                    <p>+&nbsp;</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="static/images/icons/whatsapp.svg" alt="Whatsapp">
+                                    </a>
+                                </li>
+                                <li class="slash">
+                                    <p>|</p>
+                                </li>
+                                <li>
+                                    <a href="" class="red"> ned </a>
+                                </li>
+                                <li>
+                                    <p>/</p>
+                                </li>
+                                <li>
+                                    <a class="grey">eng</a>
+                                </li>
+                                <li class="slash">
+                                    <p>|</p>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="static/images/icons/search.svg" alt="loop">
+                                    </a>
+                                </li>
+                            </ul> <!-- End top navigation menu -->
+                            <ul class="main-menu menu"> <!-- Bottom navigation menu -->
+                                <li class="main-li">
+                                    <a href="#">home</a>
+                                </li>
+                                <li class="main-li">
+                                    <a href="#">vergaderen</a>
+                                </li>
+                                <li class="main-li">
+                                    <a href="#">kookstudio</a>
+                                </li>
+                                <li class="main-li">
+                                    <a href="#">bedrijfsuitje</a>
+                                </li>
+                                <li class="hidden main-li">
+                                    <a href="#">over ons</a>
+                                    <button onclick="hidemenu()" class="press-down" id="press-down">&#9661;</button>
+                                    <ul class="hidden-menu" id="hidden-menu">
+                                        <div class="triangle"></div>
+                                        <li>
+                                            <a href="#">visie</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">wij</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">vacatures</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">evenement</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">blog</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="main-li">
+                                    <a href="#">contact</a>
+                                </li>
+                            </ul> <!-- End bottom navigation menu -->
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="sliderTop"> <!-- slider top -->
+            <div class="my-slider">
+                <div>
+                    <article>
+                        <img src="static/images/slide-acc.jpg" alt="slider-image1">
+                        <h1 class="textOnpicture">the earth without art is just . . . eh</h1> <!-- maken h1 rest h2 -->
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="static/images/slide-acc.jpg" alt="slider-image1">
+                        <h2 class="textOnpicture">the earth without art is just . . . eh</h2>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="static/images/slide-acc.jpg" alt="slider-image1">
+                        <h2 class="textOnpicture">the earth without art is just . . . eh</h2>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="static/images/slide-acc.jpg" alt="slider-image1">
+                        <h2 class="textOnpicture">the earth without art is just . . . eh</h2>
+                    </article>
+                </div>
+                <div>
+                    <article>
+                        <img src="static/images/slide-acc.jpg" alt="slider-image1">
+                        <h2 class="textOnpicture">the earth without art is just . . . eh</h2> <!-- geen h1, h2, class large/h1.  text-on-picture = classname. geen col-12. class op article-->
+                    </article>
+                </div>
+            </div>
+        </section> <!-- End slider top -->
+
+        <main>
+            <div class="container threeblocks">
+                <div class="row">
+                    <div class="col-lg-4 col-12"><!-- top 3 blocks -->
+                        <a href="#">
+                            <div class="block bg-block block-top"> <!-- block 1 -->
+                                <article class="row">
+                                    <h3 class="col-md-8 block_h3">vergaderen</h3>
+                                    <div class="col-md-5">
+                                        <img src="static/images/V.png" alt="V">
+                                    </div>
+                                    <ul class="col-md-7">
+                                        <li>
+                                            <b>Strategisch gelegen</b>
+                                            vlakbij het Sloterdijk Station
+                                        </li>
+                                        <li>
+                                            <b>Inspirerende sfeer</b>
+                                            in waanzinnig pand
+                                        </li>
+                                        <li>
+                                            <b>Gratis parkeren</b>
+                                        </li>
+                                    </ul>
+                                </article>
+                                <footer> <!-- footer block 1 -->
+                                    <h3>naar vergaderen
+                                        <div>
+                                            <svg class="bounce-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                            </svg>
+                                        </div>
+                                    </h3>
+                                </footer> <!-- end footer block 1 -->
+                            </div>
+                        </a>
+                    </div> <!-- End block 1 -->
+                    <div class="col-lg-4 col-12"><!-- top 3 blocks -->
+                        <a href="#">
+                            <div class="block bg-block block-top"> <!-- block 1 -->
+                                <article class="row">
+                                    <h3 class="col-md-8 block_h3">kookstudio</h3>
+                                    <div class="col-md-5">
+                                        <img src="static/images/K.png" alt="K">
+                                    </div>
+                                    <ul class="col-md-7">
+                                        <li>
+                                            <b>Inspirerende werkplek</b>
+                                            in creatieve omgeving
+                                        </li>
+                                        <li>
+                                            <b>Professioneel ontvangen</b>
+                                            van relaties
+                                        </li>
+                                        <li>
+                                            <b>Gratis proefweek</b>
+                                            flexwerken inclusief lunch
+                                        </li>
+                                    </ul>
+                                </article>
+                                <footer> <!-- footer block 1 -->
+                                    <h3>naar kookstudio
+                                        <div>
+                                            <svg class="bounce-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                            </svg>
+                                        </div>
+                                    </h3>
+                                </footer> <!-- end footer block 1 -->
+                            </div>
+                        </a>
+                    </div> <!-- End block 1 -->
+                    <div class="col-lg-4 col-12"><!-- top 3 blocks -->
+                        <a href="#">
+                            <div class="block bg-block block-top"> <!-- block 1 -->
+                                <article class="row">
+                                    <h3 class="col-md-8 block_h3">bedrijfsuitje</h3>
+                                    <div class="col-md-5">
+                                        <img src="static/images/B.png" alt="B">
+                                    </div>
+                                    <ul class="col-md-7">
+                                        <li>
+                                            <b>Strategisch gelegen</b>
+                                            vlakbij het Sloterdijk Station
+                                        </li>
+                                        <li>
+                                            <b>Inspirerende sfeer</b>
+                                            in waanzinnig pand
+                                        </li>
+                                        <li>
+                                            <b>Gratis parkeren</b>
+                                        </li>
+                                    </ul>
+                                </article>
+                                <footer> <!-- footer block 1 -->
+                                    <h3>naar vergaderen
+                                        <div>
+                                            <svg class="bounce-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                            </svg>
+                                        </div>
+                                    </h3>
+                                </footer> <!-- end footer block 1 -->
+                            </div>
+                        </a>
+                    </div> <!-- End block 1 -->
+                </div>
+            </div>
+
+            <section class="customers"> <!-- Customers block -->
+                <div class="share">
+                    <h1 class="noColor">onze klanten</h1>
+                    <ul class="social-media"> <!-- Sharing icons -->
+                        <li>deel deze pagina:</li>
+                        <li>
+                            <a href=""><img src="static/images/icons/facebook.png" alt="Facebook"></a> +
+                        </li>
+                        <li>
+                            <a href=""><img src="static/images/icons/twitter.svg" alt="Twitter"></a> +
+                        </li>
+                        <li>
+                            <a href=""><img src="static/images/icons/linkedin.svg" alt="LinkedIn"></a> +
+                        </li>
+                        <li>
+                            <a href=""><img src="static/images/icons/google.svg" alt="Google+"></a> +
+                        </li>
+                        <li>
+                            <a href=""><img src="static/images/icons/whatsapp.svg" alt="Whatsapp"></a>
+                        </li>
+                    </ul> <!-- End sharing icons -->
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-10 col-xl-6 mx-auto customers-slider"> <!-- Slider customers logo's -->
+                            <div class="logo-slider">
+                                <div class="container-fluid m-0 tsb-box mt-40 mt-xl-30 mb-20 tsb">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/vodafone.jpg" alt="Vodafone">
+                                        </div>
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/caland_lyceum_logo.jpg" alt="Calandlyceum">
+                                        </div>
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/Imsus.jpg" alt="Imus">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-fluid m-0 tsb-box mt-40 mt-xl-30 mb-20 tsb">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/La-Luz-logo-2012.png" alt="La-Luz">
+                                        </div>
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/abnamro.png" alt="Abnamro">
+                                        </div>
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/Gemeente-Amsterdam.png" alt="Gemeente Amsterdam">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-fluid m-0 tsb-box mt-40 mt-xl-30 mb-20 tsb">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/gvb.png" alt="gvb">
+                                        </div>
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/total.png" alt="Total">
+                                        </div>
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/ING_logo.png" alt="Ing">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container-fluid m-0 tsb-box mt-40 mt-xl-30 mb-20 tsb">
+                                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/Heineken.jpg" alt="Heiniken">
+                                        </div>
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/kpn_logo.png" alt="Kpn">
+                                        </div>
+                                        <div class="slideritem">
+                                            <img src="static/images/logo's/liander.hd.png" alt="Liander">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-controls slider-controls"> <!-- Buttons slider -->
+                                <button class="btn btn-light next">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                    </svg>
+                                </button>
+                                <button class="btn btn-light previous">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                        <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                    </svg>
+                                </button>
+                            </div> <!-- End buttons slider -->
+                        </div> <!-- End slider logo's -->
+
+                        <div class="col-md-12 col-lg-10 mx-auto col-xl-6"> <!-- Comment slider -->
+                            <div class="comments-slider" id="comments-slider">
+                                <div class="comment-slider">
+                                    <div class="container-fluid m-0 tsb-box mt-40 mt-xl-30 mb-20 tsb"> <!-- Items in comment slider -->
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                            <div class="slideritem">
+                                                <div class="slider-text">
+                                                    <p>Pokem ipsum dolor sit amet Hive Badge Noctowl Girafarig Cryogonal Zubat prepare for trouble. Psychic Umbreon Professor Elm Swinub Arceus Durant Mystery Gift. Glacier Badge Zephyr Badge Sandslash et dolore magna aliqua Cryogonal Petilil Glaceon. Pikachu Feraligatr Cascade Badge Musharna Nurse Joy Metapod Metang. Zephyr Badge Hydreigon Jolteon Smeargle Earthquake Gurdurr Petilil.</p>
+                                                </div>
+                                                <div class="comment-block">
+                                                    <img src="static/images/profielfoto.jpeg" class="comments-img" alt="profielfoto">
+                                                    <h2>Naomi Nomi</h2>
+                                                    <a href="">Naomi Nomi</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end items in comment slider -->
+                                    <div class="container-fluid m-0 tsb-box mt-40 mt-xl-30 mb-20 tsb"> <!-- Items in comment slider -->
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                            <div class="slideritem">
+                                                <div class="slider-text">
+                                                    <p>Ik ben makelaar in koffi, en woon op de Lauriergracht No 37. Het is mijn gewoonte niet, romans te schrijven, of zulke dingen, en het heeft dan ook lang geduurd, voor ik er toe overging een paar riem papier extra te bestellen, en het werk aan te vangen, dat gij, lieve lezer, zoâven in de hand hebt genomen, en dat ge lezen moet als ge makelaar in koffie zijt, of als ge wat anders zijt.</p>
+                                                </div>
+                                                <div class="comment-block">
+                                                    <img src="static/images/profielfoto.jpeg" class="comments-img" alt="profielfoto">
+                                                    <h2>Naomi Nomi</h2>
+                                                    <a href="">Naomi Nomi</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end items in comment slider -->
+                                    <div class="container-fluid m-0 tsb-box mt-40 mt-xl-30 mb-20 tsb"> <!-- Items in comment slider -->
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                            <div class="slideritem">
+                                                <div class="slider-text">
+                                                    <p>I'm baby seitan hoodie activated charcoal vexillologist chillwave actually vice cronut literally tumblr tacos quinoa freegan. Sustainable poke tacos tumblr tbh. Palo santo hella live-edge hammock, lyft stumptown gatekeep crucifix leggings master cleanse fixie cliche raw denim shabby chic. Plaid occupy fingerstache, tote bag vape lo-fi banjo intelligentsia chartreuse.</p>
+                                                </div>
+                                                <div class="comment-block">
+                                                    <img src="static/images/profielfoto.jpeg" class="comments-img" alt="profielfoto">
+                                                    <h2>Naomi Nomi</h2>
+                                                    <a href="">Naomi Nomi</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- End items in comment slider -->
+                                    <div class="container-fluid m-0 tsb-box mt-40 mt-xl-30 mb-20 tsb">
+                                        <div class="d-flex flex-wrap justify-content-between align-items-center">
+                                            <div class="slideritem">
+                                                <div class="slider-text">
+                                                    <p>Slash Caterpie Butterfree Koffing Raikou Omanyte Tangela. Poison Dodrio I'm on the road to Viridian City Cyndaquil Weedle Earthquake Mr. Mime. Pokemon The Movie 2000 Loudred you're not wearing shorts Castform Buneary Graveler Loudred. Fire Mismagius Virizion Missingno Minccino Parasect Gallade. Blue Mismagius Ruby Soda Pop Wormadam Cacnea Darkrai.</p>
+                                                </div>
+                                                <div class="comment-block">
+                                                    <img src="static/images/profielfoto.jpeg" class="comments-img" alt="profielfoto">
+                                                    <h2>Naomi Nomi</h2>
+                                                    <a href="">Naomi Nomi</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment-controls comment-controls"> <!-- Buttons in comment slider -->
+                                    <button class="btn btn-light next-right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                        </svg>
+                                    </button>
+                                    <button class="btn btn-light previous-right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                            <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                        </svg>
+                                    </button>
+                                </div> <!-- End buttons in comment slider -->
+                            </div>
+                        </div> <!-- End slider logo's -->
+                    </div>
+                </div>
+            </section>
+
+            <h1 class="">ook in het amsterdam art center...</h1>
+            <section class="container">
+                <div class="row gx-3 col-12"> <!-- Start blocks -->
+                    <a href="">
+                        <div class="col-xl-4 col-lg-6 col-md-6 mx-auto mt-5 block"> <!-- block 1 -->
+                            <h2>kunst op werk</h2>
+                            <div class="img-triangle first"></div>
+                            <img class="images" src="static/images/kantoor.jpg" alt="image1">
+                            <footer> <!-- footer block 2 -->
+                                <a href="">
+                                    <h3>naar kunstuitleen.nl - werk
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                            </svg>
+                                        </div>
+                                    </h3>
+                                </a>
+                            </footer>
+                        </div> <!-- end block 1 -->
+                    </a>
+                    <a href="">
+                        <div class="col-xl-4 col-lg-6 col-md-6 mx-auto mt-5 block"><!-- block 2 -->
+                            <h2>kunst voor thuis</h2>
+                            <div class="img-triangle second"></div>
+                            <img class="images" src="static/images/huiskamer.jpg" alt="image2">
+                            <footer> <!-- footer block 2 -->
+                                <a href="">
+                                    <h3>naar kunstuitleen.nl - thuis
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                            </svg>
+                                        </div>
+                                    </h3>
+                                </a>
+                            </footer>
+                        </div> <!-- end block 2 -->
+                    </a>
+                    <a href="">
+                        <div class="col-xl-4 col-lg-6 col-md-6 mx-auto mt-5 block"><!-- block 3 -->
+                            <h2>lijstenmakerij</h2>
+                            <div class="img-triangle third"></div>
+                            <img class="images" src="static/images/Lijstenmakerij1.jpg" alt="image3">
+                            <footer> <!-- footer block 3 -->
+                                <a href="">
+                                    <h3>naar onze lijstemakerij
+                                        <div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                                                <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/>
+                                            </svg>
+                                        </div>
+                                    </h3>
+                                </a>
+                            </footer>
+                        </div> <!-- block 3 -->
+                    </a>
+                </div> <!-- Start blocks -->
+                <ul class="social-media"> <!-- Social media buttons -->
+                    <li>deel deze pagina:</li>
+                    <li>
+                        <a href="">
+                            <img src="static/images/icons/facebook.png" alt="Facebook">
+                        </a> +
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="static/images/icons/twitter.svg" alt="Twitter">
+                        </a> +
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="static/images/icons/linkedin.svg" alt="LinkedIn">
+                        </a> +
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="static/images/icons/google.svg" alt="Google+">
+                        </a> +
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="static/images/icons/whatsapp.svg" alt="Whatsapp">
+                        </a>
+                    </li>
+                </ul> <!-- End social media buttons -->
+            </section>
+        </main>
+        <footer class="footer-info"> <!-- start footer -->
+            <p>Copyright All Rights Reserved &#169; 2015 Amsterdam Art Center</p>
+            <p>|</p>
+            <a href="#">Algemene Voorwaarden</a>
+            <p>|</p>
+            <p>Hosted and build by <a href="#">Go2People Websites</a></p>
+            <p>|</p>
+            <p>Design by <a href="#">Brandiacs // Creative Identity</a></p>
+            <p class="hide-fullscreen">|</p>
+            <p class="hide-fullscreen">
+                <a href="tel:+31(0)206241124<">+31 (0) 20 624 11 24</a>
+            </p>
+            <p class="hide-fullscreen">|</p>
+            <p class="hide-fullscreen">
+                <a href="mailto:mike@amsterdamartcenter.nl">mike@amsterdamartcenter.nl</a>
+            </p>
+        </footer> <!-- end footer -->
+
+                   <!-- Scripts -->
+        <script src="static/addons/tinyslider/tiny-slider.min.js"></script>
+        <script src="static/js/slider.js"></script>
+        <script src="static/js/customers.js"></script>
+        <script src="static/js/comments.js"></script>
+        <script src="static/js/hamburger.js"></script>
+        <script src="static/js/responsive.js"></script>
+                   <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+                   <!--
+                   Gebruikte links:
+                   https://www.youtube.com/watch?v=bk3Y4heVdFs
+                   https://codepen.io/matt-giggs/pen/wvyMBzR
+                   https://mdbootstrap.com/docs/standard/tools/builders/grid/
+                   https://github.com/ganlanyuan/tiny-slider
+                   http://apps.eky.hk/css-triangle-generator/
+                   Handige commando' s
+                   cmd + alt + l = beautify code
+                   -->
+    </body>
+</html>
