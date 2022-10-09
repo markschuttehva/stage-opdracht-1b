@@ -1,0 +1,63 @@
+
+.sliderTop {
+    .tns-outer {
+        .tns-controls {
+            display: none;
+        }
+
+        > button {
+            display: none;
+        }
+
+        .tns-nav {
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            margin-top: -1rem;
+
+            button {
+                border: 0.35rem solid color(button);
+                width: 1.5rem;
+                height: 1.5rem;
+                border-radius: 50%;
+                margin: 0rem 0.2rem 0rem 0.2rem;
+            }
+
+            .tns-nav-active {
+                border: 0.35rem solid color(primary);
+            }
+        }
+    }
+
+    article {
+        position: relative;
+
+        img {
+            height: 100rem;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            font-size: 5rem;
+            margin: 2rem 0rem;
+            position: absolute;
+            top: 50%;
+            padding-right: 13.5%;
+            color: color(standard);
+            right: 0%;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            font-size: 5rem;
+            margin: 2rem 0rem;
+            position: absolute;
+            top: 50%;
+            padding-right: 13.5%;
+            color: color(standard);
+            right: 0%;
+        }
+    }
+}

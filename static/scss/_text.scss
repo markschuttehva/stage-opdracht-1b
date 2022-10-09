@@ -1,0 +1,30 @@
+// Font Face
+@font-face {
+    font-family: 'Mr Jones';
+    src: url('../fonts/MrJones-Book.woff2') format('woff2'),
+    url('../fonts/MrJones-Book.woff') format('woff'),
+    url('../fonts/MrJones-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-stack;
+    font-style: normal;
+    font-weight: normal;
+}
+
+p,
+main ul,
+main ol {
+    font-family: $font-stack;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    font-family: $font-stack;
+    font-style: normal;
+    font-weight: normal;
+}

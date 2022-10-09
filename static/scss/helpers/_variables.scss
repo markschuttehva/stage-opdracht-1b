@@ -1,0 +1,79 @@
+// Colors
+$colors: (
+    standard:                  #ffffff,
+    transparent:               rgba(0, 0, 0, 0.0),
+    alternative:               #C9C3C3, // #C9C3C3 + 40% opacity
+    alternative-light:         #C9C3C366, // #C9C3C3 + 40% opacity
+    alternative-light-solid:   #e4e1e1, // #C9C3C3 + 40% opacity
+    primary:                   #FF0000,
+    secondary:                 #24B964,
+    tertiary:                  #FF9031,
+    quaternary:                #232B34,
+    text:                      #000000,
+    link:                      #FFFFFF,
+    link-hover:                #307BE6,
+    border:                    #C9C3C3,
+    border-light:              #e9e7e7,
+    overlay:                   rgba(58, 65, 71, 0.6),
+    overlay-medium:            rgba(58, 65, 71, 0.5),
+    error:                     #FF0000,
+    error-light:               #ff8a8a,
+    shadow:                    rgba(0,0,0,0.16),
+
+    hover-primary:              #6a9eec,
+    hover-secondary:            #64cb8e,
+    hover-tertiary:             #ffae6b,
+
+    background:                 #FFFFFF,
+    button:                     #999999,
+    arrow:                      #888888,
+    footer:                     #000000,
+    background-grey:            #cccccc,
+);
+
+// Header height
+$header-height-mobile: 76px;
+$header-height: 100px;
+
+// Font settings
+
+$font-awesome: 'Font Awesome 5 Free';
+$font-stack: 'Mr Jones', sans-serif;
+//$font-heading: 'FilsonPro', sans-serif;
+//@fontface toevoegen
+
+// Font sizes
+$size-text-xs: 1rem;
+$size-text-s: 1.125rem;
+$size-text: 1.125rem;
+$size-text-l: 1.25rem;
+$size-heading-one: 2.5rem;
+$size-heading-two-l: 2.5rem;
+$size-heading-two: 2rem;
+$size-heading-two-s: 1.5rem;
+$size-heading-three: 1.5rem;
+$size-heading-four: 1.35rem;
+
+// Bootstrap breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1440px;
+
+// Animation settings
+$duration: .3s;
+
+// Default settings
+
+
+html {
+    font-size: 62.5%; /* Set default px to 10px, so 16px is 1.6rem*/
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}

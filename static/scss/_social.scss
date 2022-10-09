@@ -1,0 +1,27 @@
+
+.social-media {
+    text-align: end;
+    display: inline-block;
+    line-height: 3rem;
+    position: absolute;
+    margin-top: -6.5rem;
+    right: 22rem;
+
+    li {
+        display: inline-flex;
+        font-size: medium;
+        text-transform: uppercase;
+
+        a {
+            color: color(text);
+            display: inline-flex;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            text-decoration: underline;
+
+            img {
+                height: 2rem;
+            }
+        }
+    }
+}

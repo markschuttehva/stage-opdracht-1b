@@ -1,0 +1,108 @@
+@import "_includes";
+
+main {
+    h1 {
+        color: color(primary);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+        font-size: 4rem;
+        margin: 2rem 0rem;
+        font-weight: bolder;
+    }
+
+    .container {
+        .block { //3 block in container above footer
+            .images {
+                width: 100%;
+                margin: 0rem 0rem -0.3rem 0rem;
+                height: 21rem;
+            }
+
+            h2 {
+                text-transform: uppercase;
+                padding: 2rem 0rem;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(200, 200, 200, 0.3));
+                clip-path: polygon(0% 0%, 75% 0%, 100% 100%, 0% 100%);
+                font-size: 2.4rem;
+
+            }
+
+
+            .img-triangle {
+                border-right: 21rem solid transparent;
+                position: absolute;
+                border-bottom: 21rem solid;
+                bottom: 1rem;
+                clip-path: polygon(0 0, 0% 100%, 100% 100%);
+            }
+
+            .first {
+                border-image: linear-gradient(45deg, transparent, #680059 75%);
+            }
+
+            .second {
+                border-image: linear-gradient(45deg, transparent, #d39e00 75%);
+            }
+
+            .third {
+                border-image: linear-gradient(45deg, transparent, #afbbff 75%);
+            }
+
+            footer {
+                background-color: color(text);
+                clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+                height: 4rem;
+                margin: auto;
+                text-align-last: end;
+
+                a {
+                    text-decoration: none;
+                    color: color(standard);
+
+                    h3 {
+                        font-size: 1.8rem;
+                        font-weight: normal;
+                        text-transform: uppercase;
+                        text-align: end;
+                        padding: 1.2rem 0rem 0rem 0rem;
+                        color: color(standaard);
+
+                        div {
+                            display: contents;
+
+                            svg {
+                                fill: color(text);
+                                width: 1.3rem;
+                                background-color: color(button);
+                                padding: 0.25rem;
+                                border-radius: 50%;
+                                margin-right: 1.5rem;
+
+                                path {
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: color(text);
+        }
+    }
+
+    .social-media {
+
+        margin: 2rem 0rem 0rem 0rem;
+
+        @include respond-to(up-to-lg) {
+            text-align: center;
+            margin: 2rem 0rem -6rem 0rem;
+            position: inherit;
+            display: block;
+        }
+    }
+}

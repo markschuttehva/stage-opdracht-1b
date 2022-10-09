@@ -1,0 +1,67 @@
+
+.customers-slider {
+    background-color: color(standard);
+    height: 52rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    z-index: 2;
+    margin-bottom: 3rem;
+
+    .logo-slider {
+        margin-top: 2rem;
+
+        .slideritem {
+            margin-bottom: 1rem;
+            border: none;
+            background: color(standard);
+
+            img {
+                border: none;
+                width: auto;
+                max-width: 14rem;
+                height: auto;
+                padding: 0.5rem;
+                margin: 0.3rem;
+            }
+        }
+    }
+}
+
+//Offerte 2018.207-…pages Upload Error
+//Offerte 2019.100-…pages Upload Error
+//Offerte 2020.129.v2…pages Upload Error
+//Offerte 2019.180-…pages Upload Error
+//Offerte 2019.233-…pages Upload Error
+//Offerte 2019.192-…pages Upload Error
+
+
+
+.tns-outer {
+    border-top: none;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 1.5rem;
+    background-color: color(background-grey);
+    border-radius: 50%;
+    transform: rotate(180deg);
+    border: none;
+    margin: 0em -0.5em;
+    fill: color(arrow);
+}
+
+.previous {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1.5rem;
+    background-color: color(background-grey);
+    border-radius: 50%;
+    border: none;
+    margin: 0em -0.5em;
+    fill: color(arrow);
+}
